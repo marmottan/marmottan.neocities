@@ -1,6 +1,7 @@
-# My Neocities Site
+# marmottan.neocities
 
 Backup of my personal website hosted on Neocities.
+marmottan.neocities.org
 
 ## Files
 
