@@ -1,6 +1,6 @@
 # marmottan.neocities
 
-Backup of my personal website hosted on Neocities.
+Backup of the homepage of my personal website hosted on Neocities.
 - [marmottan.neocities.org](https://marmottan.neocities.org)
 
 ## Files
@@ -11,6 +11,6 @@ Backup of my personal website hosted on Neocities.
 ## Purpose
 
 This repository is used to:
-- Keep a versioned backup of the site
+- Keep a versioned backup of the page
 - Track changes over time
 - Make it easier to manage and restore the website
