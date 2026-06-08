@@ -1,7 +1,7 @@
 # marmottan.neocities
 
 Backup of the homepage of my personal website hosted on Neocities.
-- [marmottan.neocities.org](https://marmottan.neocities.org)
+**Website:** [marmottan.neocities.org](https://marmottan.neocities.org)
 
 ## Files
 
