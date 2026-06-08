@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <title>Marmottan's page</title>
+  <style>
+
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      height: 100%;
+    }
+    body {
+      min-height: 100%;
+      margin: 1em auto 0;
+      padding: 0em;
+      max-width: 620px;
+      background-color: #000;
+      color: #c0c0c0;
+      font-family: "MS PMincho", "Times New Roman", serif;
+      line-height: 1.5;
+    }
+    a {
+      color: #00ffff;
+      text-decoration: none;
+      font-family: inherit;
+      font-weight: normal;
+    }
+    a:visited {
+      color: #ff00ff;
+    }
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+      outline: none;
+    }
+    .entry-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5em;
+      justify-content: center;
+      font-size: 1em;
+      color: #00ffff;
+      padding: 0;
+      font-style: normal;
+      font-weight: normal;
+    }
+    .entry-link[href="aboutme.html"],
+    .entry-link[href="wip.html"],
+    .entry-link[href="https://marmottan.neocities.org/thinkpad/"],
+    .entry-link[href="https://marmottan.neocities.org/crt/"],    
+    .entry-link[href="https://marmottan.neocities.org/cacti/"] {
+      font-size: 1.1em;
+      font-weight: bold;
+      font-style: italic;
+      color: #777777;
+    }
+    .entry-link:hover,
+    .entry-link:focus {
+      text-decoration: underline;
+      outline: none;
+    }
+    .centered {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    nav a img,
+    .entry-link img {
+      vertical-align: middle;
+      border: none;
+      max-width: 100%;
+      height: auto;
+      display: inline-block;
+    }
+    hr {
+      border: 1px solid #444;
+      margin: 0.5em 0;
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      margin-left: -50vw;
+      box-sizing: border-box;
+    }
+    footer {
+      margin-top: 0.5em;
+      padding-top: 1em;
+      font-size: 0.9em;
+      text-align: center;
+      color: #777;
+    }
+    footer .centered {
+      padding-top: 2em;
+      }
+    @media (max-width: 640px) {
+      body {
+        margin: 1em;
+        max-width: 100%;
+        padding: 0.5em;
+      }
+      nav a img,
+      .entry-link img {
+        max-width: 90%;
+      }
+    }
+    #datetime {
+      font-size: 1em;
+      margin-bottom: 1.5em;
+      color: #c0c0c0;
+      text-align: center;
+    }
+    .flex-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1em;
+    }
+    .small-text {
+      font-size: small;
+    }
+    .highlighted-text {
+      color: #f00;
+      font-weight: bold;
+      margin-top: 0.25em;
+      text-align: center;
+    }
+    .nav-links {
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 2em;
+    }
+    .nav-links a {
+      margin: 0 0.5em;
+      color: #00ffff;
+      text-decoration: none;
+      font-family: inherit;
+      font-weight: normal;
+    }
+    .nav-links a:visited {
+      color: #ff00ff;
+    }
+    .nav-links a:hover,
+    .nav-links a:focus {
+      text-decoration: underline;
+      outline: none;
+    }
+    section.centered:last-of-type {
+      margin-bottom: 0.5em;
+    }
+    .title-container {
+      margin-bottom: 1em;
+    }
+
+    .copyright-style {
+      color: #777777;
+      font-family: "MS PMincho", "Times New Roman", serif;
+      font-size: 0.9em;
+      font-weight: normal;
+      text-align: center;
+    }
+    .email-link {
+      font-weight: bold;
+      color: #00ffff;
+    }
+    .title-container img {
+      width: 310px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="datetime">Loading date and time...</div>
+
+  <div class="centered title-container">
+    <img src="title.png" width="310" height="43" alt="Marmottan's page" />
+  </div>
+
+  <main>
+    <section class="centered">
+      <p>Dear web-wanderers, welcome to my page.</p>
+      <p class="copyright-style">This space is my tribute to the web's older days.</p>
+      <p class="copyright-style">Here, I also experiment with HTML, CSS, and a little JS.</p>
+    </section>
+
+    <hr />
+
+    <section class="centered">
+      <a href="aboutme.html" class="entry-link">
+        <img src="logo.gif" width="20" height="18" alt="Logo" />
+        About me
+      </a>
+    </section>
+
+    <section class="centered">
+      <div class="flex-center">
+        <a href="wip.html" class="entry-link">
+          <img src="logo.gif" width="20" height="18" alt="Logo" />
+          Writings
+        </a>
+        <span class="small-text">Snippets about random stuff.</span>
+      </div>
+      <p class="highlighted-text">Under construction.</p>
+    </section>
+
+    <section class="centered">
+      <div class="flex-center">
+        <a href="wip.html" class="entry-link">
+          <img src="logo.gif" width="20" height="18" alt="Logo" />
+          Documentations
+        </a>
+        <span class="small-text">Longer form content here.</span>
+      </div>
+      <p class="highlighted-text">Under construction.</p>
+    </section>
+
+    <section class="centered">
+      <a href="https://marmottan.neocities.org/thinkpad/" class="entry-link" rel="noopener noreferrer">
+        <img src="logo.gif" width="20" height="18" alt="Logo" />
+        My ThinkPad collection + ThinkCentre list
+      </a>
+    </section>
+
+    <section class="centered">
+      <a href="https://marmottan.neocities.org/crt/" class="entry-link" rel="noopener noreferrer">
+        <img src="logo.gif" width="20" height="18" alt="Logo" />
+        My CRT monitors
+      </a>
+    </section>
+
+    <section class="centered">
+      <div class="flex-center">
+        <a href="https://marmottan.neocities.org/cacti/" class="entry-link" rel="noopener noreferrer">
+          <img src="logo.gif" width="20" height="18" alt="Logo" />
+          My cacti
+        </a>
+        <span class="small-text">A list of the plants living in my room.</span>
+      </div>
+    </section>
+
+    <section class="centered nav-links">
+      <p>
+        | <a href="https://marmottan.neocities.org/things/">Things I like</a> |
+        <a href="https://marmottan.neocities.org/software/">Software I use</a> |
+        <a href="template.html">Projects</a> |
+        <a href="template.html">Extra</a> |
+        <a href="template.html">Highlights</a> |
+      </p>
+    </section>
+
+    <hr />
+
+    <section class="centered">
+      <p>
+        <a href="mailto:mail.rented300@aleeas.com" class="email-link">Email me here</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025-2026 Marmottan</p>
+    <p>
+      The content of this site is licensed under the <a href="https://www.gnu.org/licenses/fdl-1.3.txt" target="_blank" rel="noopener noreferrer">GNU Free Documentation License</a>,
+    </p>
+    <p>Version 1.3 or any later version.</p>
+    <p>
+      This page is hosted by
+      <a href="https://neocities.org" target="_blank" rel="noopener noreferrer">Neocities</a>
+    </p>
+
+    <div class="centered">
+      <img src="neocities.gif" alt="Marmottan's page" />
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      function updateDateTime() {
+        try {
+          const now = new Date();
+          const options = {
+            timeZone: "Europe/Rome",
+            weekday: "long",
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+            hour: "numeric",
+            minute: "numeric",
+            second: "numeric",
+            hour12: true,
+          };
+          const dateTimeString = now.toLocaleString("en-US", options);
+          const dtElem = document.getElementById("datetime");
+          if (dtElem) dtElem.textContent = dateTimeString;
+        } catch (error) {
+          console.error("Error updating date/time:", error);
+          const dtElem = document.getElementById("datetime");
+          if (dtElem) dtElem.textContent = "Time unavailable";
+        }
+      }
+      updateDateTime();
+      setInterval(updateDateTime, 1000);
+    });
+  </script>
+
+</body>
+</html>
